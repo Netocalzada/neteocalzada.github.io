@@ -1,0 +1,103 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body {
+  color:#555;
+  margin: 0;
+  font-family: 'Montserrat', sans-sans-serif;
+}
+
+/*Encabezado*/
+#encabezado {
+  background-color: #1abc9c;
+  height: 150px;
+  line-height: 150px;
+}
+#encabezado-title{
+  display: block;
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+}
+#encabezado-nav{
+  display: block;
+  float: right;
+  margin-top: 0;
+}
+#encabezado-nav li{
+  display: inline;
+  padding-left: 20px;
+}
+#encabezado a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em
+}
+#encabezado a:hover {
+  color: #157;
+}
+.contenedor{
+  max-width: 1000 px;
+  margin:0 auto;
+}
+
+/*Contenido*/
+.about{
+  text-align:center;
+}
+.post, .about{
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+.contenedor-post:nth-child(even){
+  background-color: #f2f2f3;
+}
+img{
+  width: 120px;
+  height: 90px;
+  vertical-align: middle;
+  border-radius: 70px 70px 70px;
+}
+.post-author span {
+  margin left: 16px;
+}
+.post-date{
+  color:#d2d2d2
+  font-size:14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+h1, h2, h3, h4 {
+  color:#333
+}
+p {
+  line-height: 1.5;
+}
+
+/*Pie*/
+#Pie{
+  background-color: #2f2f2f;
+  padding:50px 0;
+}
+#Pie h4{
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+#Pie p {
+  color: white;
+}
+.columna{
+  min-width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
+a{
+  color: #1abc9c;
+  text-decoration: none;
+}
+a:hover{
+  color: #f6a623;
+}
